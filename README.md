@@ -23,7 +23,7 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-### Backend congig
+### Backend config
 
 ```
 In order to configure the backend you will have to create a config.php file with your db info. 
