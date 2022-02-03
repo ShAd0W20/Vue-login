@@ -26,6 +26,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ### Backend config
 
 ```
-In order to configure the backend you will have to create a config.php file with your db info. 
+In order to configure the backend you will have to create a config.php file in the root directory of the project with your db info. 
 Variable names on ajax.php line 12
 ```
