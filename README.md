@@ -1,6 +1,5 @@
-# Vue basic login
+# Vue 3 basic login page
 
-A really basic Vue 3 login with ajax and PHP and bootstrap 5
 
 ## Project setup
 ```
