@@ -1,5 +1,7 @@
 # Vue basic login
 
+A rellay basic Vue 3 login with ajax and PHP and bootstrap 5
+
 ## Project setup
 ```
 npm install
