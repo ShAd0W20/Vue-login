@@ -1,17 +1,17 @@
 <template>
   <div id="nav">
-    <Menu/>
+    <Menu />
     <router-view />
   </div>
 </template>
 
 
 <script>
-import Vuex from 'vuex';
+import Vuex from "vuex";
 import Menu from "@/components/Menu.vue";
 export default {
   components: {
-    Menu
+    Menu,
   },
   data() {
     return {};
@@ -30,12 +30,13 @@ export default {
     checkAuth() {
       var that = this;
       this.DoAjaxCall({ method: "auth" }, function (response) {
-        if(response.result == true) {
+        if (response.result == true) {
           console.log(response);
           response.authObj.isAuth = true;
           that.set_authData(response.authObj);
         } else {
-          that.set_authData({ isAuth: false, userName: false, isAdmin: false});
+          that.set_authData({ isAuth: false, userID: false, userName: false, isAdmin: false });
+          that.$router.push("/");
         }
       });
     },

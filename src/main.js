@@ -14,7 +14,7 @@ app.mixin({
         DoAjaxCall: function (data, cb) {
             $.ajax({
                 type: "POST",
-                url: 'http://localhost/VueStoreTest/storetest/src/php/ajax.php',
+                url: 'https://localhost/php/ajax.php',
                 data: data,
                 success: function (data) {
                     cb(JSON.parse(data));
