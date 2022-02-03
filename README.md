@@ -1,4 +1,4 @@
-# storetest
+# Vue basic login
 
 ## Project setup
 ```
@@ -22,3 +22,10 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Backend congig
+
+```
+In order to configure the backend you will have to create a config.php file with your db info. 
+Variable names on ajax.php line 12
+```
